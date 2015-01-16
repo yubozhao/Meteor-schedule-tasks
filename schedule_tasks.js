@@ -1,5 +1,3 @@
-later = Npm.require('later');
-
 ScheduledTask = function ScheduledTask(schedule, task) {
   var self = this;
   if (typeof schedule === "string") {
